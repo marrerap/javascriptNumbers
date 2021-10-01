@@ -64,8 +64,8 @@ const lastName = 'Xzavier'
 const thisYear = 2021
 const birthYear = 1940
 
-const greeting = " Hey Bud! I am " + firstName + "" + lastName + ". " + 
-"You may be surprised to learn that I am only " + (thisYear - birthYear) + "years old!!!"
+const greeting = "Hey Bud! I am " + firstName + " " + lastName + ". " + 
+"You may be surprised to learn that I am only " + (thisYear - birthYear) + " years old!!!"
 
 
 console.log(greeting);
