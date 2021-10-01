@@ -59,19 +59,14 @@ The greeting should say "Hello! My name is Carlos Stevenson and I am 17 years ol
 */
 
 // Edit below this line =============
-const birthYear = 1948;
-const thisYear = 1965;
-const firstName = "Carlos";
-const lastName = "Stevenson";
+const firstName = 'Charles'
+const lastName = 'Xzavier'
+const thisYear = 2021
+const birthYear = 1940
 
-const greeting =
-  "Hello! My name is " +
-  firstName +
-  " " +
-  lastName +
-  " and I am " +
-  (thisYear - birthYear) +
-  " years old.";
+const greeting = " Hey Bud! I am " + firstName + "" + lastName + ". " + 
+"You may be surprised to learn that I am only " + (thisYear - birthYear) + "years old!!!"
+
 
 console.log(greeting);
 
