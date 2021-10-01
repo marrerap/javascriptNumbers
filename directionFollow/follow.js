@@ -50,6 +50,9 @@ using the calculations that were originally being done in the greeting.
 In order to make the tests pass you will need to use these exact values for 
 the years and names.  The wording needs to be exact.  If the tests fail, check spacing and punctuation:
 
+i am changing the variable values to reflect actual changes in the code to prove I 
+wrote the solution outside of replit
+
 birthYear = 1948
 thisYear = 1965
 firstName = Carlos
@@ -63,9 +66,11 @@ const firstName = 'Charles'
 const lastName = 'Xzavier'
 const thisYear = 2021
 const birthYear = 1940
+const fullName = firstName + ' ' + lastName
+const age = thisYear - birthYear
 
-const greeting = "Hey Bud! I am " + firstName + " " + lastName + ". " + 
-"You may be surprised to learn that I am only " + (thisYear - birthYear) + " years old!!!"
+const greeting = "Hey Bud! I am " + fullName + ". " + 
+"You may be surprised to learn that I am only " + age + " years old!!!"
 
 
 console.log(greeting);
@@ -76,24 +81,24 @@ console.log(greeting);
 
 // Step 2:
 
-module.exports = {
-  testGroup: "a",
-  greeting,
-  birthYear,
-  thisYear,
-  firstName,
-  lastName,
-};
+// module.exports = {
+//   testGroup: "a",
+//   greeting,
+//   birthYear,
+//   thisYear,
+//   firstName,
+//   lastName,
+// };
 
 // Step 3: (Be sure to comment out Step 2)
 
-// module.exports = {
-// 	testGroup: "b",
-// 	greeting,
-// 	birthYear,
-// 	thisYear,
-// 	firstName,
-// 	lastName,
-// 	fullName,
-// 	age
-// }
+module.exports = {
+	testGroup: "b",
+	greeting,
+	birthYear,
+	thisYear,
+	firstName,
+	lastName,
+	fullName,
+	age
+}

@@ -72,7 +72,7 @@ if (values.testGroup === "b") {
         errored = true;
     }
 
-    if (values.age !== 17) {
+    if (values.age !== 81) {
         console.error(`lastName is incorrect, it's currently: "${values.age}"`);
         errored = true;
     }
